@@ -5,6 +5,7 @@ No support provided. Made this because i just saw a thread selling something lik
 **Features**
 > - Restrict usage of your events to specific jobs.
 > - You can allow multiples jobs per event.
+> - Discord Log
 > - ESX & QBCore Ready.
 > - Full source code.
 
