@@ -57,10 +57,11 @@ CreateThread(function()
     elseif Config.frameWork == "QBCORE" then
         QBCore = exports['qb-core']:GetCoreObject()
         if QBCore == nil then
-            while ESX == nil do
+            while QBCore == nil do
                 TriggerEvent(Config.getSharedObject, function(obj)
                     QBCore = obj
                 end)
+                Wait(10)
             end
         end
         Config.getJobName = function(source)
